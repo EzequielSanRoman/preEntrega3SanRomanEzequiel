@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <title>Perfil</title>
+</head>
+
+<body class="modo-claro">
+
+    <nav>
+        <button id="claro-oscuro" class="modo-noche p-3">
+            Modo Oscuro
+        </button>
+    </nav>
+    <nav>
+        <button id="logout">
+            Cerrar sesión
+        </button>
+    </nav>
+    <main>
+        <section class="container">
+            <div class="container-login card-login">
+                <h2>
+                    Inicie sesión
+                </h2>
+                <form id="login">
+                    <label>
+                        <input type="text" placeholder="Usuario" id="input-user">
+                    </label>
+                    <label>
+                        <input type="text" placeholder="Contraseña" id="input-pass">
+                    </label>
+                    <label>
+                        <input type="submit" value="Ingresar">
+                    </label>
+                    <p id="logint">
+                        El usuario o la contraseña son incorrectas.
+                    </p>
+                </form>
+            </div>
+            <div class="container-usuarios">
+                <table>
+                </table>
+            </div>
+        </section>
+    </main>
+    <section class="container-cuentas container-logout">
+        <div class="cuentas border-cuentas shadow-lg p-3 m-5">
+
+
+            <h3 class="aa m-5 justify-content-left">Caja de Ahorro $0,00 <br>Cuenta Corriente $0,00</h3>
+
+        </div>
+    </section>
+
+
+    
+    </section>
+
+
+
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#logint {
+  display: none;
+}
+
+#logout {
+  display: none;
+}
+
+.container-logout {
+  display: none;
+}
+
+.modo-noche {
+
+  margin: 8px;
+}
+
+/*Header
+
+
+.barra-menu {
+
+  border-radius: 80px;
+  background-color: lightslategray;
+  margin: 30px 30px 70px 30px;
+}
+
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+
+header .barra-menu {
+  border-radius: 80px;
+  background-color: lightslategray;
+  margin: 30px 30px 70px 30px;
+}
+
+header nav div .logo {
+  width: 150px;
+  height: 150px;
+}
+
+.frase-app {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  font-size: 160px;
+}
+
+.app-100 {
+  font-size: 130px;
+  font-family: "Anton", sans-serif;
+}
+
+.online-app {
+  font-family: "Anton", sans-serif;
+  font-size: 180px;
+}
+
+.border-cuentas {
+
+  border-radius: 80px;
+  background-color: rgb(207, 207, 207);
+  align-items: center;
+
+}
+*/
+
+/* Card login*/
+.body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  margin: 200px;
+}
+.container-login {
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+  border: 1px solid grey;
+  border-radius: 50px;
+  justify-content: center;
+  background-image: linear-gradient(to top, #526581, #5d7693, #6888a5, #749ab7, #80adc9);
+  border-radius: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  display: flex;
+
+}
+
+#input-user{
+  font-size: 20px;
+  border-radius: 30px;
+  display: flex;
+  
+}
+#input-pass{
+  font-size: 20px;
+  border-radius: 30px;
+  display: flex;
+ 
+}
+#input-submit{
+  font-size: 20px;
+  border-radius: 15px;
+  display: flex;
+  margin: 10px;
+}
+
+
+#claro-oscuro{
+  font-size: 20px;
+  border-radius: 15px;
+  display: flex;
+  margin: 10px;
+}
+
+.modo-oscuro {
+
+  background-image: linear-gradient(to top, #041937, #062445, #082f53, #083c61, #08486f);
+}
+.container-logout{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 60%;
+  color: white;
+  justify-content: center;
+}
+.cuentas{
+  border-radius: 80px;
+  background-image: linear-gradient(to right top, #051937, #223a5a, #3f5e7e, #5e84a3, #80adc9);
+  align-items: center;
+  padding: 50px;
+  
+}
+/* 
+/* /* contenido 
+.border-cuentas {
+
+  border-radius: 80px;
+  background-color: rgb(207, 207, 207);
+  align-items: center;
+
+}
+
+/* footer 
+
+footer .barra-menu {
+  border-radius: 80px;
+  background-color: lightslategray;
+  margin: 30px 30px 70px 30px;
+}
+
+footer .logo {
+  width: 150px;
+  height: 150px;
+}
+
+.container-productos .nmc {
+  font-family: "Anton", sans-serif;
+  font-size: 180px;
+  color: black;
+  text-align: center;
+} */
+
+
+/* 
+/* modo noche 
+.estilo-letra{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 10px;
+}
+.modo-claro{
+    background-image: linear-gradient(to right top, #051937, #223a5a, #3f5e7e, #5e84a3, #80adc9);
+}
+.modo-oscuro{
+    background-color: black;
+}
+
+.modo-noche{
+    background-color: whitesmoke;
+    border-radius: 70px;
+} */
